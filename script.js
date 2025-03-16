@@ -1,6 +1,5 @@
 //your JS code here. If required.
 let frm= document.getElementById('frm');
-
 frm.addEventListener("submit",(event)=>{
 	event.preventDefault();
 	let firstname = document.getElementById("First Name").value;
